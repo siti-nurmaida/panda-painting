@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #96a0b0;
+}
+.panda-head {
+	width: 250px;
+	height: 225px;
+	border: 2px solid #000 ;
+	background-color: #fff;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 60%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	z-index: 1;
+}
+.panda-eyes div {
+	z-index: 3;
+}
+.panda-left-eye {
+	width: 50px;
+	height: 65px;
+	background-color: #000;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 70%;
+	border-bottom-left-radius: 60%;
+	border-bottom-right-radius: 70%;
+	position: absolute;
+	top: 260px;
+	left: 560px;
+	transform: rotate(15deg);
+}
+.panda-right-eye {
+	width: 50px;
+	height: 65px;
+	background-color: #000;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 70%;
+	border-bottom-left-radius: 60%;
+	border-bottom-right-radius: 70%;
+	position: absolute;
+	top: 260px;
+	right: 560px;
+	transform: rotate(165deg);
+}
+.panda-left-inner-eye {
+	width: 15px;
+	height: 20px;
+	background-color: #fff;
+	border-radius: 60%;
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	transform: rotate(10deg);
+}
+.panda-right-inner-eye {
+	width: 15px;
+	height: 20px;
+	background-color: #fff;
+	border-radius: 60%;
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	transform: rotate(-10deg);
+}
+.panda-ears div {
+	width: 70px;
+	height: 35px;
+	background-color: #000;
+	border-radius: 50px 50px 0 0;
+	z-index: -1;
+}
+.panda-left-ear {
+	position: absolute;
+	top: 210px;
+	left: 510px;
+	transform: rotate(-40deg);
+}
+.panda-right-ear {
+	position: absolute;
+	top: 210px;
+	right: 510px;
+	transform: rotate(40deg);
+}
+.panda-nose {
+	width: 30px;
+	height: 20px;
+	background-color: #000;
+	border-radius: 50px 50px 20px 20px;
+	position: absolute;
+	top: 335px;
+	left: 625px;
+	transform: rotate(180deg);
+	z-index: 3;
+}
+.panda-mouth div {
+	width: 40px;
+	height: 50px;
+	border: 2px solid #000;
+	border-color: black transparent transparent transparent;
+	border-radius: 100%;
+	z-index: 3;
+}
+.panda-mouth-line-left {
+	position: absolute;
+	top: 320px;
+	left: 603px;
+	transform: rotate(160deg);
+}
+.panda-mouth-line-right {
+	position: absolute;
+	top: 320px;
+	right: 603px;
+	transform: rotate(-160deg);
+}
+.panda-cheeks div {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #f5badc;
+	z-index: 2;
+}
+.panda-left-cheek {
+	position: absolute;
+	top: 310px;
+	left: 540px;
+}
+.panda-right-cheek {
+	position: absolute;
+	top: 310px;
+	right: 540px;
+}
